@@ -1,0 +1,432 @@
+@media (min-width: 1740px) {
+  .row,
+  .partners,
+  #services,
+  .container-fluid,
+  #home {
+    width: 1500px !important;
+    margin: 0 auto;
+  }
+
+  #home {
+    .home {
+      height: 900px;
+    }
+  }
+
+  #call,
+  #tokenomics {
+    height: 900px;
+  }
+
+  nav {
+    height: 90px;
+  }
+}
+
+@media (max-width: 1280px) {
+  #home {
+    .home {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      .row {
+        height: 600px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  nav {
+    height: 7vh;
+    .container-fluid {
+      padding: 0 10px;
+    }
+  }
+  
+  #home {
+    .home {
+      height: 600px;
+      .row {
+        .col-6 {
+          .heading {
+            h1 {
+              font-size: 2.5rem;
+            }
+            p {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  #partners {
+    padding: 20px;
+  }
+  #about {
+    .row {
+      .col-6 {
+        width: 100%;
+        img {
+          display: none;
+        }
+        .res-image {
+          display: block;
+          height: 300px;
+        }
+        p {
+          margin-top: 50px;
+        }
+        h3 {
+          font-size: 2.5rem !important;
+        }
+      }
+    }
+  }
+  #services {
+    padding: 100px 150px;
+  }
+  #startup,
+  #real_estate,
+  #mutual_funds,
+  #reva_pay,
+  #robo_advisor,
+  #crypto,
+  #stock_etf,
+  #stacks,
+  #call {
+    height: auto;
+    .row {
+      .col-6 {
+        width: 100%;
+        .write-up {
+          padding: 0;
+        }
+        img {
+          display: none;
+        }
+        .res-image {
+          display: block !important;
+          height: 300px !important;
+        }
+        p {
+          margin-top: 30px;
+        }
+      }
+    }
+    h3 {
+      font-size: 2.5rem;
+    }
+  }
+  #call {
+    .row {
+      .col-6 {
+        .write-up {
+          h2 {
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+  #tokenomics {
+    .row {
+      h3,
+      h2 {
+        font-size: 2.5rem;
+      }
+      h2 {
+        margin-top: 50px;
+      }
+    }
+  }
+  #roadmap {
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .main-nav {
+    display: none;
+  }
+  .res-nav {
+    display: block;
+    height: auto;
+    .container-fluid {
+      .navbar-brand {
+        img {
+          width: 100px;
+          height: 100px;
+          margin-top: -20px;
+        }
+      }
+      .btn {
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  #home {
+    .home {
+      height: auto;
+      .row {
+        height: auto;
+        .col-6 {
+          width: 100%;
+          .heading {
+            h1 {
+              text-align: center;
+            }
+            padding: 30px 100px;
+            .res-image {
+              display: block;
+              height: 400px;
+              width: 50%;
+              margin: 0 auto;
+            }
+          }
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  #services {
+    padding: 100px 80px;
+  }
+  #services,
+  #startup,
+  #real_estate,
+  #mutual_funds,
+  #reva_pay,
+  #robo_advisor,
+  #crypto,
+  #stock_etf,
+  #stacks,
+  #call {
+    padding: 50px;
+    // .row {
+    //   .col-6 {
+    //     width: 100%;
+    //     .write-up {
+    //       padding: 0;
+    //     }
+    //     img {
+    //       display: none;
+    //     }
+    //     .res-image {
+    //       display: block !important;
+    //       height: 300px !important;
+    //     }
+    //     p {
+    //       margin-top: 30px;
+    //     }
+    //   }
+    // }
+  }
+  #infographic {
+    width: 100%;
+    .circle {
+      display: none;
+    }
+    article {
+      left: 0;
+    }
+    article[data-step="1"],
+    article[data-step="2"],
+    article[data-step="3"],
+    article[data-step="4"],
+    article[data-step="5"],
+    article[data-step="6"],
+    article[data-step="7"],
+    article[data-step="8"],
+    article[data-step="9"],
+    article[data-step="10"],
+    article[data-step="11"],
+    article[data-step="12"],
+    article[data-step="13"],
+    article[data-step="14"],
+    article[data-step="15"],
+    article[data-step="16"],
+    article[data-step="17"] {
+      margin-left: 0;
+    }
+  }
+  #contact {
+    padding: 100px 50px;
+    .row {
+      .col-6 {
+        width: 100%;
+        &:nth-child(2) {
+          margin: 50px;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  #FAQ {
+    padding: 100px 50px;
+    .container-fluid {
+      .faq {
+        width: 100%;
+      }
+    }
+  }
+  footer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  #home {
+    .home {
+      .row {
+        .col-6 {
+          .heading {
+            padding: 30px 50px;
+            .res-image {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  #about {
+    padding: 10px;
+    p {
+      text-align: left;
+    }
+  }
+  #services {
+    .services {
+      justify-content: center;
+    }
+  }
+  #startup,
+  #real_estate,
+  #mutual_funds,
+  #reva_pay,
+  #robo_advisor,
+  #crypto,
+  #stock_etf,
+  #stacks {
+    padding: 50px 0px;
+    p {
+      text-align: left;
+    }
+  }
+  #tokenomics,
+  #call {
+    padding: 50px 20px;
+    .row {
+      .col-3 {
+        width: 50%;
+      }
+    }
+  }
+  footer {
+    .container-fluid {
+      .apps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .stores {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      .row {
+        .col-3 {
+          width: 50%;
+          &:nth-child(3),
+          &:nth-child(4) {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #home {
+    .home {
+      .row {
+        .col-6 {
+          .heading {
+            padding: 30px 10px;
+          }
+        }
+      }
+    }
+  }
+  #partners {
+    padding: 20px 30px;
+  }
+  #services,
+  #startup,
+  #real_estate,
+  #mutual_funds,
+  #reva_pay,
+  #robo_advisor,
+  #crypto,
+  #stock_etf,
+  #stacks,
+  #call {
+    h3,
+    h2 {
+      font-size: 1.5rem;
+    }
+    .row {
+      .write-up {
+        padding: 30px !important;
+        .res-image {
+          height: 200px !important;
+        }
+      }
+    }
+  }
+  #call {
+    .row {
+      .col-6 {
+        .buy_token {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #tokenomics {
+    .row {
+      .col-3,
+      .col-4 {
+        width: 100%;
+        h3 {
+          text-align: center;
+        }
+      }
+    }
+  }
+  #infographic {
+    .step {
+      overflow: hidden;
+    }
+    article {
+      width: 90%;
+      left: 10px;
+    }
+  }
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

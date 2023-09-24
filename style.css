@@ -1,0 +1,1335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* p {
+  text-align: justify;
+}
+
+.barner {
+  height: 7vh;
+  width: 100%;
+  background-color: #0052fe;
+}
+
+nav {
+  height: 10vh;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+nav .container-fluid {
+  padding: 20px 100px;
+  height: 100%;
+}
+nav .container-fluid .navbar-brand img {
+  width: 150px;
+  height: 150px;
+}
+nav .container-fluid .navbar-nav li {
+  margin: 0 10px;
+}
+nav .container-fluid .btn {
+  background-color: #0052fe;
+  color: #fff;
+}
+
+.res-nav {
+  display: none;
+}
+
+.row {
+  overflow: hidden;
+  width: 100%;
+}
+
+#home {
+  min-width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-top: 10vh;
+}
+#home .home {
+  height: 90vh;
+}
+#home .home .row {
+  width: 100%;
+  height: 100%;
+  border: 1px soild red !important;
+}
+#home .home .row .col-6 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .home .row .col-6 .heading {
+  padding: 0 100px;
+}
+#home .home .row .col-6 .heading .res-image {
+  display: none;
+}
+#home .home .row .col-6 .heading h1 {
+  font-size: 3.5rem;
+}
+#home .home .row .col-6 .heading h1 span {
+  color: #0052fe;
+}
+#home .home .row .col-6 .heading p {
+  font-size: 1.5rem;
+}
+#home .home .row .col-6 img {
+  width: 100%;
+  height: 100%;
+}
+
+#partners {
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background-color: #242238;
+}
+#partners .partners {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#partners .partners .partner {
+  width: 200px;
+  height: 60px;
+}
+#partners .partners .partner img {
+  width: 100%;
+  height: 100%;
+}
+
+#about {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+}
+#about .row .col-6 img {
+  width: 100%;
+  height: 400px;
+}
+#about .row .col-6 .res-image {
+  display: none;
+}
+#about .row .col-6 .about h3 {
+  font-size: 3.5rem;
+}
+
+#call {
+  width: 100%;
+  height: 100vh;
+  padding: 0 100px 100px 100px;
+  background-color: #242238;
+  color: #fff;
+}
+#call .row {
+  height: 100%;
+}
+#call .row .col-6 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#call .row .col-6 span {
+  color: #0052fe;
+  font-weight: bolder;
+}
+#call .row .col-6 .buy_token {
+  padding-bottom: 50px;
+  width: 70%;
+  height: auto;
+  background-color: #fff;
+  color: #111;
+  border-radius: 10px;
+}
+#call .row .col-6 .buy_token .promo {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+#call .row .col-6 .buy_token .current {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+#call .row .col-6 .buy_token .sold {
+  background-color: lightgrey;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+#call .row .col-6 .buy_token .sold .token_sold {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+#call .row .col-6 .buy_token .sold .rate {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+#call .row .col-6 .buy_token .total {
+  margin-top: 10px;
+}
+#call .row .col-6 .buy_token .total p {
+  text-align: center;
+}
+#call .row .col-6 .buy_token .total .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#call .row .col-6 .buy_token .total .icons img {
+  width: 50%;
+  height: 50%;
+}
+#call .row .col-6 .buy_token .button {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#call .row .col-6 .buy_token .button .btn {
+  width: 85%;
+  border-radius: 50px;
+  background-color: #0052fe;
+  color: #fff;
+}
+#call .row .col-6 .buy_token .promo_code {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+#call .row .col-6 .buy_token .promo_code .input {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#call .row .col-6 .buy_token .promo_code .input input {
+  border-radius: 50px;
+  border: 1px solid #0052fe;
+}
+#call .row .col-6 .buy_token .promo_code .input .btn {
+  color: #0052fe;
+  margin-left: 10px;
+}
+#call .row .col-6 .write-up {
+  padding: 0 70px;
+}
+#call .row .col-6 .write-up h2 {
+  font-size: 3.5rem;
+}
+#call .row .col-6 .write-up .btn {
+  background-color: #0052fe;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+#services {
+  width: 100%;
+  height: auto;
+  padding: 0 100px 100px 100px;
+}
+#services p,
+#services h3 {
+  text-align: center;
+}
+#services h3 {
+  font-size: 3.5rem;
+}
+#services .services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#services .services .service {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  padding: 30px;
+  transition: 0.5s all ease-in-out;
+}
+#services .services .service:hover {
+  border: 1px solid #0052fe;
+}
+#services .services .service .material-symbols-outlined {
+  color: #0052fe;
+  font-size: 50px;
+}
+#services .services .service h5 {
+  color: #0052fe;
+  margin-top: 20px;
+}
+#services .services .service p {
+  text-align: left;
+  margin-top: 20px;
+}
+#services .services .service a {
+  text-decoration: none;
+  color: #0052fe;
+  position: relative;
+}
+#services .services .service a .material-symbols-outlined {
+  font-size: 20px;
+  position: absolute;
+  top: 3px;
+  left: 85px;
+}
+#services .services .more {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#services .services .more .view-more {
+  padding: 0 50px;
+}
+#services .services .more .view-more .btn {
+  width: 100%;
+  background-color: #0052fe;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+#startup,
+#real_estate,
+#mutual_funds,
+#reva_pay,
+#robo_advisor,
+#crypto,
+#stock_etf,
+#stacks {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0 100px 100px 100px;
+}
+#startup .grid .row .col-6 img,
+#real_estate .grid .row .col-6 img,
+#mutual_funds .grid .row .col-6 img,
+#reva_pay .grid .row .col-6 img,
+#robo_advisor .grid .row .col-6 img,
+#crypto .grid .row .col-6 img,
+#stock_etf .grid .row .col-6 img,
+#stacks .grid .row .col-6 img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#startup .grid .row .write-up,
+#real_estate .grid .row .write-up,
+#mutual_funds .grid .row .write-up,
+#reva_pay .grid .row .write-up,
+#robo_advisor .grid .row .write-up,
+#crypto .grid .row .write-up,
+#stock_etf .grid .row .write-up,
+#stacks .grid .row .write-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+#startup .grid .row .write-up .res-image,
+#real_estate .grid .row .write-up .res-image,
+#mutual_funds .grid .row .write-up .res-image,
+#reva_pay .grid .row .write-up .res-image,
+#robo_advisor .grid .row .write-up .res-image,
+#crypto .grid .row .write-up .res-image,
+#stock_etf .grid .row .write-up .res-image,
+#stacks .grid .row .write-up .res-image {
+  display: none;
+}
+
+#roadmap {
+  background-color: #242238;
+  color: #fff;
+}
+#roadmap h2 {
+  font-size: 3.5rem;
+}
+
+#tokenomics {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+}
+#tokenomics .row {
+  height: 50%;
+}
+#tokenomics .row h3 {
+  font-size: 3.5rem;
+  color: #0052fe;
+}
+#tokenomics .row h2 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+#tokenomics .row p {
+  font-size: 1.5rem;
+}
+#tokenomics .row .col-4,
+#tokenomics .row .col-3 {
+  display: grid;
+  justify-content: center;
+}
+
+#FAQ {
+  width: 100%;
+  padding: 100px;
+}
+#FAQ .container-fluid .faq {
+  width: 70%;
+  margin: 0 auto;
+}
+#FAQ .container-fluid .faq h3 {
+  text-align: center;
+}
+#FAQ .container-fluid .faq .FAQ-content .FAQ-header {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  cursor: pointer;
+}
+#FAQ .container-fluid .faq .FAQ-content .FAQ-header h6,
+#FAQ .container-fluid .faq .FAQ-content .FAQ-header .closed {
+  margin-top: 30px;
+}
+#FAQ .container-fluid .faq .FAQ-content .FAQ-header h6 {
+  margin-left: -40px;
+}
+#FAQ .container-fluid .faq .FAQ-content .FAQ-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+#FAQ .container-fluid .faq .FAQ-content .FAQ-body .FAQ-answer {
+  padding: 10px;
+}
+#FAQ .container-fluid .closed .vertical {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+}
+#FAQ .container-fluid .closed .horizontal {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+  opacity: 1;
+}
+#FAQ .container-fluid .active {
+  opacity: 1;
+}
+#FAQ .container-fluid .active .vertical {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(90deg);
+}
+#FAQ .container-fluid .active .horizontal {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(90deg);
+  opacity: 0;
+}
+#FAQ .container-fluid .circle-plus {
+  height: 4em;
+  width: 4em;
+  font-size: 1em;
+  opacity: 0.7;
+}
+#FAQ .container-fluid .circle-plus .circle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+#FAQ .container-fluid .circle-plus .circle .horizontal {
+  position: absolute;
+  background-color: black;
+  width: 15px;
+  height: 2px;
+  margin-left: -7px;
+  margin-top: 7px;
+}
+#FAQ .container-fluid .circle-plus .circle .vertical {
+  position: absolute;
+  background-color: black;
+  width: 2px;
+  height: 15px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+#contact {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+  background-color: aliceblue;
+}
+#contact .row .address {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#contact .row .address .social_media .fa-brands {
+  font-size: 23px;
+}
+#contact .row .address .social_media .fa-twitter,
+#contact .row .address .social_media .fa-instagram,
+#contact .row .address .social_media .fa-telegram {
+  margin-left: 15px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #242238;
+  padding: 100px 100px 1px 100px;
+  color: #fff;
+}
+footer .container-fluid {
+  width: 100%;
+}
+footer .container-fluid .heading img {
+  width: 100px;
+  height: 100px;
+}
+footer .container-fluid .apps {
+  background-color: #111;
+  padding: 20px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+footer .container-fluid .apps .stores img {
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+}
+footer .container-fluid .row {
+  margin-top: 50px;
+}
+footer .container-fluid .row .col-3 ul {
+  list-style: none;
+  margin-top: 30px;
+  padding: 0;
+}
+footer .container-fluid .row .col-3 ul li {
+  margin-top: 10px;
+}
+footer .container-fluid .row .col-3 ul li a {
+  color: lightgray;
+}
+footer .container-fluid .copy {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer .container-fluid .copy p {
+  font-size: 12px;
+}
+
+.nav-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.nav-icon .material-symbols-outlined {
+  font-size: 25px;
+  color: #0052fe;
+  transition: 0.4s all ease-in-out;
+}
+
+.animation-group [data-animation] {
+  animation-duration: 1000ms;
+}
+.animation-group [data-animation].animate {
+  opacity: 1;
+}
+.animation-group [data-animation]:nth-child(1) {
+  animation-delay: 100ms;
+}
+.animation-group [data-animation]:nth-child(2) {
+  animation-delay: 500ms;
+}
+.animation-group [data-animation]:nth-child(3) {
+  animation-delay: 900ms;
+}
+.animation-group [data-animation]:nth-child(4) {
+  animation-delay: 1300ms;
+}
+.animation-group [data-animation]:nth-child(5) {
+  animation-delay: 1700ms;
+}
+.animation-group [data-animation]:nth-child(6) {
+  animation-delay: 2100ms;
+}
+.animation-group [data-animation]:nth-child(7) {
+  animation-delay: 2500ms;
+}
+.animation-group [data-animation]:nth-child(8) {
+  animation-delay: 2900ms;
+}
+.animation-group [data-animation]:nth-child(9) {
+  animation-delay: 3300ms;
+}
+.animation-group [data-animation]:nth-child(10) {
+  animation-delay: 3700ms;
+}
+
+/* Animations */
+:root {
+  --animate-duration: 1.5s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-duration: var(--animate-duration);
+  animation-fill-mode: both;
+}
+
+@keyframes swing {
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.swing {
+  animation-name: swing;
+  transform-origin: top center;
+}
+
+@keyframes tada {
+  0% {
+    transform: scaleX(1);
+  }
+  10%, 20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.tada {
+  animation-name: tada;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 20%, 53%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateZ(0);
+  }
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0) scaleY(1.1);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0) scaleY(1.05);
+  }
+  80% {
+    transform: translateZ(0) scaleY(0.95);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0) scaleY(1.02);
+  }
+}
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.3);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.3);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+.heartBeat {
+  animation-duration: 1.3s;
+  animation-duration: calc(var(--animate-duration) * 1.3);
+  animation-name: heartBeat;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-20%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(20%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 5%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+/********** Roadmap Style****************/
+#infographic .circle {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 7px double;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  position: absolute;
+  left: 50%;
+  margin: 40px 0;
+}
+
+#infographic section:nth-child(odd) .circle {
+  transform: translateX(-100%);
+}
+
+#infographic article {
+  max-width: 410px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  left: 50%;
+  position: relative;
+}
+
+#infographic article header {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#infographic article header i {
+  display: flex;
+  font-size: 2em;
+  border-radius: 50%;
+  background-clip: padding-box;
+  padding: 14px;
+  transition: transform 0.4s;
+  color: #fff;
+  border: 16px solid var(--bs-dark);
+  margin: -16px 0 -16px -20px;
+}
+
+#infographic article:hover header i {
+  transform: scale(1.2);
+}
+
+#infographic article.active header i {
+  transform: none;
+}
+
+#infographic article .body {
+  background: var(--bgColor);
+  padding: 0 20px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  max-height: 0;
+  transition: max-height 0.5s, padding 0.5s;
+  overflow: hidden;
+}
+
+#infographic article .body .btn {
+  padding: 3px 10px;
+  text-transform: uppercase;
+}
+
+#infographic :nth-child(even) article {
+  text-align: right;
+  transform: translateX(-100%);
+}
+
+#infographic :nth-child(even) article header {
+  flex-flow: row-reverse;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#infographic :nth-child(even) article header i {
+  margin: -16px -20px -16px 0;
+}
+
+#infographic section:nth-child(odd) article.active header {
+  border-bottom-right-radius: 0;
+}
+
+#infographic section:nth-child(even) article.active header {
+  border-bottom-left-radius: 0;
+}
+
+#infographic article.active .body {
+  padding: 20px;
+  max-height: 300px;
+  border: 1px solid;
+}
+
+#infographic article[data-step="1"] {
+  margin-left: 6px;
+}
+
+#infographic article[data-step="2"] {
+  margin-left: 54px;
+}
+
+#infographic article[data-step="3"] {
+  margin-left: 71px;
+}
+
+#infographic article[data-step="4"] {
+  margin-left: 61px;
+}
+
+#infographic article[data-step="5"] {
+  margin-left: 22px;
+}
+
+#infographic article[data-step="6"] {
+  margin-left: -30px;
+}
+
+#infographic article[data-step="7"] {
+  margin-left: -60px;
+}
+
+#infographic article[data-step="8"] {
+  margin-left: -400px;
+}
+
+#infographic article[data-step="9"] {
+  margin-left: -430px;
+}
+
+#infographic article[data-step="10"] {
+  margin-left: -460px;
+}
+
+#infographic article[data-step="11"] {
+  margin-left: -430px;
+}
+
+#infographic article[data-step="12"] {
+  margin-left: -400px;
+}
+
+#infographic article[data-step="13"] {
+  margin-left: -30px;
+}
+
+#infographic article[data-step="14"] {
+  margin-left: 30px;
+}
+
+#infographic article[data-step="15"] {
+  margin-left: 60px;
+}
+
+#infographic article[data-step="16"] {
+  margin-left: 30px;
+}
+
+#infographic article[data-step="17"] {
+  margin-left: -30px;
+}
+
+@media (min-width: 1740px) {
+  .row,
+  .partners,
+  #services,
+  .container-fluid,
+  #home {
+    width: 1500px !important;
+    margin: 0 auto;
+  }
+  #home .home {
+    height: 900px;
+  }
+  #call,
+  #tokenomics {
+    height: 900px;
+  }
+  nav {
+    height: 90px;
+  }
+}
+@media (max-width: 1280px) {
+  #home .home {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  #home .home .row {
+    height: 600px;
+  }
+}
+@media (max-width: 1024px) {
+  nav {
+    height: 7vh;
+  }
+  nav .container-fluid {
+    padding: 0 10px;
+  }
+  #home .home {
+    height: 600px;
+  }
+  #home .home .row .col-6 .heading h1 {
+    font-size: 2.5rem;
+  }
+  #home .home .row .col-6 .heading p {
+    font-size: 1.2rem;
+  }
+  #partners {
+    padding: 20px;
+  }
+  #about .row .col-6 {
+    width: 100%;
+  }
+  #about .row .col-6 img {
+    display: none;
+  }
+  #about .row .col-6 .res-image {
+    display: block;
+    height: 300px;
+  }
+  #about .row .col-6 p {
+    margin-top: 50px;
+  }
+  #about .row .col-6 h3 {
+    font-size: 2.5rem !important;
+  }
+  #services {
+    padding: 100px 150px;
+  }
+  #startup,
+  #real_estate,
+  #mutual_funds,
+  #reva_pay,
+  #robo_advisor,
+  #crypto,
+  #stock_etf,
+  #stacks,
+  #call {
+    height: auto;
+  }
+  #startup .row .col-6,
+  #real_estate .row .col-6,
+  #mutual_funds .row .col-6,
+  #reva_pay .row .col-6,
+  #robo_advisor .row .col-6,
+  #crypto .row .col-6,
+  #stock_etf .row .col-6,
+  #stacks .row .col-6,
+  #call .row .col-6 {
+    width: 100%;
+  }
+  #startup .row .col-6 .write-up,
+  #real_estate .row .col-6 .write-up,
+  #mutual_funds .row .col-6 .write-up,
+  #reva_pay .row .col-6 .write-up,
+  #robo_advisor .row .col-6 .write-up,
+  #crypto .row .col-6 .write-up,
+  #stock_etf .row .col-6 .write-up,
+  #stacks .row .col-6 .write-up,
+  #call .row .col-6 .write-up {
+    padding: 0;
+  }
+  #startup .row .col-6 img,
+  #real_estate .row .col-6 img,
+  #mutual_funds .row .col-6 img,
+  #reva_pay .row .col-6 img,
+  #robo_advisor .row .col-6 img,
+  #crypto .row .col-6 img,
+  #stock_etf .row .col-6 img,
+  #stacks .row .col-6 img,
+  #call .row .col-6 img {
+    display: none;
+  }
+  #startup .row .col-6 .res-image,
+  #real_estate .row .col-6 .res-image,
+  #mutual_funds .row .col-6 .res-image,
+  #reva_pay .row .col-6 .res-image,
+  #robo_advisor .row .col-6 .res-image,
+  #crypto .row .col-6 .res-image,
+  #stock_etf .row .col-6 .res-image,
+  #stacks .row .col-6 .res-image,
+  #call .row .col-6 .res-image {
+    display: block !important;
+    height: 300px !important;
+  }
+  #startup .row .col-6 p,
+  #real_estate .row .col-6 p,
+  #mutual_funds .row .col-6 p,
+  #reva_pay .row .col-6 p,
+  #robo_advisor .row .col-6 p,
+  #crypto .row .col-6 p,
+  #stock_etf .row .col-6 p,
+  #stacks .row .col-6 p,
+  #call .row .col-6 p {
+    margin-top: 30px;
+  }
+  #startup h3,
+  #real_estate h3,
+  #mutual_funds h3,
+  #reva_pay h3,
+  #robo_advisor h3,
+  #crypto h3,
+  #stock_etf h3,
+  #stacks h3,
+  #call h3 {
+    font-size: 2.5rem;
+  }
+  #call .row .col-6 .write-up h2 {
+    font-size: 2.5rem;
+  }
+  #tokenomics .row h3,
+  #tokenomics .row h2 {
+    font-size: 2.5rem;
+  }
+  #tokenomics .row h2 {
+    margin-top: 50px;
+  }
+  #roadmap h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .main-nav {
+    display: none;
+  }
+  .res-nav {
+    display: block;
+    height: auto;
+  }
+  .res-nav .container-fluid .navbar-brand img {
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+  }
+  .res-nav .container-fluid .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #home .home {
+    height: auto;
+  }
+  #home .home .row {
+    height: auto;
+  }
+  #home .home .row .col-6 {
+    width: 100%;
+  }
+  #home .home .row .col-6 .heading {
+    padding: 30px 100px;
+  }
+  #home .home .row .col-6 .heading h1 {
+    text-align: center;
+  }
+  #home .home .row .col-6 .heading .res-image {
+    display: block;
+    height: 400px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  #home .home .row .col-6 img {
+    display: none;
+  }
+  #services {
+    padding: 100px 80px;
+  }
+  #services,
+  #startup,
+  #real_estate,
+  #mutual_funds,
+  #reva_pay,
+  #robo_advisor,
+  #crypto,
+  #stock_etf,
+  #stacks,
+  #call {
+    padding: 50px;
+  }
+  #infographic {
+    width: 100%;
+  }
+  #infographic .circle {
+    display: none;
+  }
+  #infographic article {
+    left: 0;
+  }
+  #infographic article[data-step="1"],
+  #infographic article[data-step="2"],
+  #infographic article[data-step="3"],
+  #infographic article[data-step="4"],
+  #infographic article[data-step="5"],
+  #infographic article[data-step="6"],
+  #infographic article[data-step="7"],
+  #infographic article[data-step="8"],
+  #infographic article[data-step="9"],
+  #infographic article[data-step="10"],
+  #infographic article[data-step="11"],
+  #infographic article[data-step="12"],
+  #infographic article[data-step="13"],
+  #infographic article[data-step="14"],
+  #infographic article[data-step="15"],
+  #infographic article[data-step="16"],
+  #infographic article[data-step="17"] {
+    margin-left: 0;
+  }
+  #contact {
+    padding: 100px 50px;
+  }
+  #contact .row .col-6 {
+    width: 100%;
+  }
+  #contact .row .col-6:nth-child(2) {
+    margin: 50px;
+    margin-left: 0;
+  }
+  #FAQ {
+    padding: 100px 50px;
+  }
+  #FAQ .container-fluid .faq {
+    width: 100%;
+  }
+  footer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 600px) {
+  #home .home .row .col-6 .heading {
+    padding: 30px 50px;
+  }
+  #home .home .row .col-6 .heading .res-image {
+    width: 100%;
+  }
+  #about {
+    padding: 10px;
+  }
+  #about p {
+    text-align: left;
+  }
+  #services .services {
+    justify-content: center;
+  }
+  #startup,
+  #real_estate,
+  #mutual_funds,
+  #reva_pay,
+  #robo_advisor,
+  #crypto,
+  #stock_etf,
+  #stacks {
+    padding: 50px 0px;
+  }
+  #startup p,
+  #real_estate p,
+  #mutual_funds p,
+  #reva_pay p,
+  #robo_advisor p,
+  #crypto p,
+  #stock_etf p,
+  #stacks p {
+    text-align: left;
+  }
+  #tokenomics,
+  #call {
+    padding: 50px 20px;
+  }
+  #tokenomics .row .col-3,
+  #call .row .col-3 {
+    width: 50%;
+  }
+  footer .container-fluid .apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container-fluid .apps .stores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container-fluid .row .col-3 {
+    width: 50%;
+  }
+  footer .container-fluid .row .col-3:nth-child(3), footer .container-fluid .row .col-3:nth-child(4) {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 500px) {
+  #home .home .row .col-6 .heading {
+    padding: 30px 10px;
+  }
+  #partners {
+    padding: 20px 30px;
+  }
+  #services h3,
+  #services h2,
+  #startup h3,
+  #startup h2,
+  #real_estate h3,
+  #real_estate h2,
+  #mutual_funds h3,
+  #mutual_funds h2,
+  #reva_pay h3,
+  #reva_pay h2,
+  #robo_advisor h3,
+  #robo_advisor h2,
+  #crypto h3,
+  #crypto h2,
+  #stock_etf h3,
+  #stock_etf h2,
+  #stacks h3,
+  #stacks h2,
+  #call h3,
+  #call h2 {
+    font-size: 1.5rem;
+  }
+  #services .row .write-up,
+  #startup .row .write-up,
+  #real_estate .row .write-up,
+  #mutual_funds .row .write-up,
+  #reva_pay .row .write-up,
+  #robo_advisor .row .write-up,
+  #crypto .row .write-up,
+  #stock_etf .row .write-up,
+  #stacks .row .write-up,
+  #call .row .write-up {
+    padding: 30px !important;
+  }
+  #services .row .write-up .res-image,
+  #startup .row .write-up .res-image,
+  #real_estate .row .write-up .res-image,
+  #mutual_funds .row .write-up .res-image,
+  #reva_pay .row .write-up .res-image,
+  #robo_advisor .row .write-up .res-image,
+  #crypto .row .write-up .res-image,
+  #stock_etf .row .write-up .res-image,
+  #stacks .row .write-up .res-image,
+  #call .row .write-up .res-image {
+    height: 200px !important;
+  }
+  #call .row .col-6 .buy_token {
+    width: 100%;
+  }
+  #tokenomics .row .col-3,
+  #tokenomics .row .col-4 {
+    width: 100%;
+  }
+  #tokenomics .row .col-3 h3,
+  #tokenomics .row .col-4 h3 {
+    text-align: center;
+  }
+  #infographic .step {
+    overflow: hidden;
+  }
+  #infographic article {
+    width: 90%;
+    left: 10px;
+  }
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
